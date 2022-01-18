@@ -1,0 +1,53 @@
+.dataListContainer {
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: repeat(4, 250px);
+  margin: 0 auto;
+  gap: 30px 10px;
+}
+
+h1 {
+  color: #a8753b;
+  font-weight: 900;
+  max-width: 1000px;
+  margin: 10px auto;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  margin-top: 80px;
+  font-size: 32px;
+}
+
+.item {
+  cursor: pointer;
+}
+
+.item img {
+  width: 240px;
+  height: 240px;
+  border-radius: 20px;
+}
+
+.item p {
+  margin: 8px 0;
+}
+
+.item .price {
+  font-weight: 700;
+}
+
+.item .count {
+  color: #5f5f5f;
+  font-size: small;
+}
+
+.item .address {
+  font-size: small;
+}
+
+.item .count:not(:last-child)::after {
+  content: "・";
+  margin: 0 4px;
+}
