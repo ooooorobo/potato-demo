@@ -20,6 +20,11 @@ h2 {
   font-size: 32px;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 .item {
   cursor: pointer;
 }
