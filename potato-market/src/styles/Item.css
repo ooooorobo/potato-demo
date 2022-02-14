@@ -1,0 +1,29 @@
+.item {
+  margin: auto;
+}
+
+.item img {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+}
+
+.item p {
+  margin: 8px 0;
+}
+
+.item .price {
+  font-weight: 700;
+}
+
+.item .count {
+  color: #5f5f5f;
+  font-size: small;
+
+  display: inline;
+}
+
+.item .count:not(:last-child)::after {
+  content: "・";
+  margin: 0 4px;
+}
