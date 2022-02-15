@@ -35,7 +35,7 @@ npm install npx -g
 
 </aside>
 
-제가 당근마켓 클론 코딩으로 만들 서비스의 이름은 감자마켓입니다. 🥔 원하는 프로젝트 이름이 있다면 `potato-market` 부분을 원하는 프로젝트 이름으로 채워 주세요.
+원하는 프로젝트 이름이 있다면 `potato-market` 부분을 원하는 프로젝트 이름으로 채워 주세요.
 
 ```bash
 npx create-react-app potato-market
