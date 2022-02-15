@@ -2,6 +2,7 @@ import "./styles/Main.css";
 import { Route, Routes } from "react-router-dom";
 import Main from "./pages/Main";
 import Post from "./pages/Post";
+import { NotFoundError } from "./pages/NotFoundError";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Routes>
         <Route path="/post/*" element={<Post />} />
         <Route path="/" element={<Main />} />
+        <Route path="*" element={<NotFoundError />} />
       </Routes>
     </div>
   );

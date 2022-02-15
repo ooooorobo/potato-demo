@@ -56,3 +56,18 @@ a {
   content: "・";
   margin: 0 4px;
 }
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0;
+}
+
+.pagination button {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #5f5f5f;
+  cursor: pointer;
+}

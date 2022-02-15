@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
 export default function Item({ data }) {
   return (
-    <Link to={`/post/${data.id}`}>
+    <Link to={`/post?id=${data.id}`}>
       <div className="item">
         <img src={data.imgSrc} alt={data.name} />
-        <p clasName="name">{data.name}</p>
+        <p className="name">{data.name}</p>
         <p className="price">{data.price}원</p>
         <p className="address">{data.address}</p>
         <span className="count">
